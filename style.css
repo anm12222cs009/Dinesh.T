@@ -37,9 +37,10 @@ body {
     background: #e0e5ec;
     box-shadow: inset 5px 5px 10px #bec3c9,
                 inset -5px -5px 10px #ffffff;
-    color: #2d4059;
+    color: black;
     font-size: 16px;
 }
+
 
 .search input:focus {
     outline: none;
@@ -139,6 +140,24 @@ body {
     display: none;
 }
 
+@media (max-width: 800px) {
+    .card {
+        padding: 25px;
+    }
+    
+    .weather h1 {
+        font-size: 55px;
+    }
+    
+    .weather h2 {
+        font-size: 28px;
+    }
+    
+    .details {
+        gap: 15px;
+        padding: 15px;
+    }
+}
 @media (max-width: 480px) {
     .card {
         padding: 25px;
